@@ -67,19 +67,19 @@ python file_name.py
   ## CODE :
 
   ```python
-  import os
-import time
-import cohere
-import whisper
-import sounddevice as sd
-import numpy as np
-import scipy.io.wavfile as wav
-import pyttsx3
-import tempfile
 
-class VoiceAssistant:
-    def __init__(self):
-        # 🔐 Hardcoded Cohere API key (⚠️ only for local dev)
+  import os
+  import time
+  import cohere
+  import whisper
+  import sounddevice as sd
+  import numpy as np
+  import scipy.io.wavfile as wav
+  import pyttsx3
+  import tempfile
+  
+  class VoiceAssistant:
+        def __init__(self):      
         self.api_key = "your_actual_api_key_here"  # <-- Paste your real key here!
         self.cohere_client = cohere.Client(self.api_key)
 
@@ -161,11 +161,16 @@ class VoiceAssistant:
             except Exception as e:
                 print(f"💥 Error: {e}")
                 self.speak_text("Something went wrong.")
-
-if __name__ == "__main__":
+                if __name__ == "__main__":
     assistant = VoiceAssistant()
     assistant.run()
-``` 
+
+    ```
+
+    
+                
+
+
 
   
 
