@@ -172,7 +172,7 @@ python file_name.py
     assistant = VoiceAssistant()
     assistant.run()
 
-    ```
+    
 
     
                 
