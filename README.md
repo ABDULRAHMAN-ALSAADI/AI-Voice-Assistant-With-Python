@@ -87,8 +87,7 @@ python file_name.py
         print("🔍 Loading Whisper model...")
         self.whisper_model = whisper.load_model("base")
 
-        # Removed persistent TTS engine here to fix hangups
-
+       
     def record_audio(self, duration=5, fs=16000):
         print("🎙️ Recording... Speak now!")
         audio = sd.rec(int(duration * fs), samplerate=fs, channels=1, dtype='int16')
@@ -121,7 +120,6 @@ python file_name.py
     def speak_text(self, text):
         try:
             print(f"🔊 Speaking: {text}")
-            # Create a new TTS engine instance each call to avoid hangups
             tts_engine = pyttsx3.init()
             tts_engine.setProperty('rate', 160)
             tts_engine.say(text)
