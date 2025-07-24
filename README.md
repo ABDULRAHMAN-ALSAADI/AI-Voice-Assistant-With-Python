@@ -64,8 +64,16 @@ python file_name.py
 
 - pyttsx3: Offline, cross-platform TTS engine with no external dependencies, very reliable for speech output
 
-  ## CODE :
+## 📷 Pictures :
 
+<img width="1920" height="1080" alt="Screenshot 2025-07-24 210428" src="https://github.com/user-attachments/assets/b7e6c5a7-0674-450a-bb10-5efc8e3297d1" />
+
+
+<img width="1920" height="1080" alt="Screenshot 2025-07-24 210548" src="https://github.com/user-attachments/assets/45378ffe-b97e-4e3e-8200-ef222a60087c" />
+
+
+
+  ## 🧠 CODE :
   ```python
 
   import os
