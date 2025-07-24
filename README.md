@@ -48,6 +48,7 @@ A Cohere API key — get one for free at [cohere.ai](https://cohere.com/)
 python file_name.py
 ```
 4- Speak clearly when prompted
+
 5- The assistant will print your query and respond aloud
 
 ## ⚓ Problems Faced while building it & Solutions
