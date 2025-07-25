@@ -11,7 +11,7 @@ import tempfile
 class VoiceAssistant:
     def __init__(self):
         # 🔐 Hardcoded Cohere API key (⚠️ only for local dev)
-        self.api_key = "ISV45D1V0LcPBybHcW295JPQ7t4Bwu8N90hkbiYt"  # <-- Paste your real key here!
+        self.api_key = "Your API key of Cohere"  # <-- Paste your real key here!
         self.cohere_client = cohere.Client(self.api_key)
 
         # Load Whisper model
